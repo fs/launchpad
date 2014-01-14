@@ -1,0 +1,212 @@
+---
+title: Готовим програмеров для компаний-партнеров в Казани!
+---
+<div class="container">
+  <div class="hero-unit main-video">
+    <div class="row">
+      <div class="span5">
+        <%= image_tag('logo.png', class: 'logo') %>
+        <h2>Готовим програмеров<br>для компаний-партнеров<br>в Казани!</h2>
+        <p>Набираем 4 группы, жаворонков и сов, по четным и нечетным дням на месяц. <br>По итогам стажировки берем на работу или переводим в след. класс школы!</p>
+        <a class="btn btn-primary btn-large" data-toggle="modal" href="#wufoo-form" title="Записаться на курсы RubyOnRails">Записаться на курсы RubyOnRails</a>
+      </div>
+      <div class="span7">
+        <iframe width="500" height="311" src="http://www.youtube.com/embed/iQXOoHQr1AY?feature=player_detailpage&amp;rel=0&amp;wmode=Opaque" frameborder="0" allowfullscreen></iframe>
+        <strong>This is how we do it @Flatstack</strong>
+      </div>
+    </div>
+
+    <%= partial 'partials/wufoo' %>
+
+  </div>
+  <hr>
+  <div class="row logos">
+    <div class="span3"><a href="http://flatstack.com"><%= image_tag('flatstack.png', alt: 'FlatStack') %></a></div>
+    <div class="span3"><a href="http://www.fujitsu.com/ru/"><%= image_tag('fujitsu.png', alt: 'Fujitsu') %></a></div>
+    <div class="span3"><a href="http://bi.itpark-kazan.ru/"><%= image_tag('it.png', alt: 'Бизнес-инкубатор') %></a></div>
+    <div class="span3"><a href="http://kai.ru/"><%= image_tag('kai.png', alt: 'КАИ') %></a></div>
+    <div class="span3"><a href="http://itis.itpark-kazan.ru/ru"><%= image_tag('itis.png', alt: 'ИТИС') %></a></div>
+  </div>
+  <hr>
+  <div class="courses">
+    <div class="row" id="probation">
+      <div class="span6 pull-right">
+        <%= coach('oleg') %>
+        <%= coach('dilyara') %>
+      </div>
+      <div class="span6">
+        <h1>Стажировка</h1>
+        <p>Мечтаешь стать мега-разработчиком? Хочешь поработать в классной команде программеров в новом современном офисе в самом центре Казани? Мы как раз ищем энергичных, креативных и открытых всему новому стажеров, продолжительность стажировки – 1 месяц. Есть время для жаворонков, ну и для сов. По четным, есть по нечетным дням.</p>
+        <p><strong>Программа:</strong></p>
+        <ul>
+          <li>Основы ИТ индустрии, разновидность каст в ИТ-отрасли. Определение вашего места в отрасли.</li>
+          <li>История развития ИТ-индустрии в Казани, ключевые компании.</li>
+          <li>Основные инструменты, которыми пользуются ИТ-специалисты.</li>
+          <li>Методологии разработки проектов.</li>
+          <li>Погружение в реальные проекты на примере стартапов, компании FlatStack и других партнеров.</li>
+          <li>RubyOnRails факультатив.</li>
+          <li>Дальнейшие шаги в ИТ-карьере и тренды. Что делать и как дальше расти.</li>
+        </ul>
+        <a data-toggle="modal" href="#wufoo-form" class="btn btn-large">Записаться</a>
+      </div>
+    </div>
+    <hr>
+    <div class="row" id="iOS">
+      <div class="span6 pull-right">
+        <%= coach('denis') %>
+        <%= coach('danis') %>
+      </div>
+      <div class="span6">
+        <h1>iOS-практика программирования</h1>
+        <p><strong>Программа занятий:</strong></p>
+        <ul>
+          <li>Язык Obj-C</li>
+          <li>Средства разработки. Инструменты</li>
+          <li>Cocoa</li>
+          <li>«Cocoa Touch», UIKit-фреймворки</li>
+          <li>Делегаты и ООП. Паттерны проектирования, применяемые в UIKit (Delegate, Target-Action, и т.д.)</li>
+          <li>View Controllers (включая modal, navigation &amp; tab bar view controllers)</li>
+          <li>Расширение пользовательского интерфейса: UIImageView, UIWebView, UIToolbar и др.</li>
+          <li>UIView переходы, инициализация</li>
+          <li>Связывание и использование веб-сервисами</li>
+          <li>Core Data</li>
+          <li>MapKit и Core Location</li>
+          <li>Работа с камерой и проигрывание видео</li>
+          <li>Локализация</li>
+          <li>Подготовка приложения к релизу.</li>
+        </ul>
+        <a data-toggle="modal" href="#wufoo-form" class="btn btn-large">Записаться</a>
+      </div>
+    </div>
+    <hr>
+    <div class="row" id="RubyOnRails">
+      <div class="span6 pull-right">
+        <%= coach('vladimir') %>
+        <%= coach('dmitry') %>
+      </div>
+      <div class="span6">
+        <h1>Курсы RubyOnRails</h1>
+        <p><strong>Программа занятий:</strong></p>
+        <ul>
+          <li>Принципы работы HTTP, веб-сервера</li>
+          <li>Принципы классического ООП, шаблон проектирования MVC</li>
+          <li>Основы языка программирования Ruby</li>
+          <li>Основы фреймворка Ruby on Rails</li>
+          <li>Система контроля версий GIT. Принцип работы. Использование</li>
+          <li>Навыки использования автоматизированного тестирования кода.</li>
+        </ul>
+        <a data-toggle="modal" href="#wufoo-form" class="btn btn-large">Записаться</a>
+      </div>
+    </div>
+    <hr>
+    <div class="row" id="cucumber">
+      <div class="span6 pull-right">
+        <%= coach('vladimir', 5) %>
+        <%= coach('dmitry') %>
+      </div>
+      <div class="span6">
+        <h1>Agile with Cucumber</h1>
+        <p><strong>Cucumber</strong> — это инструмент автоматизированного тестирования, позволяющий описывать поведение системы на естественном языке, является основным инструментов в BDD (Behavior-driven development), неотъемлемой части Agile development.
+        <br><br>
+        <strong>Однодневный мастер-класс, на котором мы рассмотрим все пункты Agile-манифеста и посмотрим как они реализуются с Cucumber:</strong></p>
+        <ul>
+          <li>Люди и взаимодействие важнее процессов и инструментов</li>
+          <li>Работающий продукт важнее исчерпывающей документации</li>
+          <li>Сотрудничество с заказчиком важнее согласования условий контракта</li>
+          <li>Готовность к изменениям важнее следования первоначальному плану</li>
+        </ul>
+        <p><strong>Курс также ответит на вопросы:</strong></p>
+        <ul>
+          <li>Зачем нужны тесты бизнесу</li>
+          <li>Зачем нужны тесты программисту</li>
+          <li>Сколько стоит правильный тест</li>
+          <li>Сколько стоит отсутствие тестов</li>
+          <li>Как писать тесты</li>
+          <li>Как писать правильные тесты</li>
+          <li>Почему web_steps.rb ужасная вещь.</li>
+        </ul>
+        <a data-toggle="modal" href="#wufoo-form" class="btn btn-large">Записаться</a>
+      </div>
+    </div>
+    <hr>
+    <div class="row" id="git">
+      <div class="span6 pull-right">
+        <%= coach('yar', 5) %>
+      </div>
+      <div class="span6">
+        <h1>Git для команд</h1>
+        <p>Цель воркшопа проста — превратить людей, не пользующихся гитом, в людей, им пользующихся.<br><br><strong>Программа занятий:</strong> </p>
+        <ul>
+          <li>
+            Git для одиночки и для независимых: <br>
+            Коммиты, индекс (и пара слов о Линусе)<br>
+            Просмотр изменений, инструменты командной строки и GUI<br>
+            Ветви: для всех и каждого и по любому случаю<br>
+            Взаимодействие с другими разработчиками<br>
+            О чем всегда приятно поспорить: merge versus rebase.
+          </li>
+          <li>
+            Git в команде:<br>
+            Если решили создать «центр»: гитхаб или собственный хостинг?<br>
+            Как «выкатывать» проект в жизнь<br>
+            Засовываем проект в проект: субмодули и, внимание, поддельные субмодули<br>
+            Что делать, если что-то идет не так<br>
+            Волшебство bisect, blame, перезапись истории.
+          </li>
+        </ul>
+        <a data-toggle="modal" href="#wufoo-form" class="btn btn-large">Записаться</a>
+      </div>
+    </div>
+    <hr>
+    <div class="row" id="scrum">
+      <div class="span6 pull-right">
+        <%= coach('dilyara') %>
+        <%= coach('oleg') %>
+      </div>
+      <div class="span6">
+        <h1>Scrum</h1>
+        <p class="desc">Участие в мастер-классе позволит повысить профессиональный тонус, узнать ответы на “вечные” вопросы о Scrum, подискутировать, обменяться опытом с коллегами, попробовать Scrum в деле и отточить уже имеющиеся навыки.
+        Курс ориентирован на менеджеров проектов, клиент-менеджеров, разработчиков, дизайнеров, тестировщиков, а также топ-менеджеров компаний по разработке ПО.</p>
+        <a data-toggle="modal" href="#wufoo-form" class="btn btn-large">Записаться</a>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <%= partial 'partials/gallery' %>
+
+  <div class="row">
+    <div class="span11 well">
+      <a data-toggle="modal" href="#wufoo-form" class="btn btn-large btn-primary pull-right">Пригласите меня!</a>
+      <p><em>Приходите к нам и мы обязательно поможем вам повысить свою квалификацию, или начать карьеру в IT</em></p>
+    </div>
+  </div>
+  <div class="row" id="reviews">
+    <h1>Отзывы</h1>
+    <div class="span6">
+      <blockquote>
+        <p>Поддерживаем начинания этих ребят на уровне кафедры КС (КГТУ им. Туполева), надеемся скоро включить курсы RubyOnRails в образовательную программу некоторых специальностей</p>
+        <small>Валерий Андреевич Песошин</small>
+      </blockquote>
+    </div>
+    <div class="span6">
+      <blockquote>
+        <p>Отрадно, что вы занимаетесь обучением ИТ-специалистов, многим гостям ЦИТ в КФУ приходится еще объяснять, зачем повышать квалификацию и создавать новые проекты в сфере образования</p>
+        <small>Айрат Хасьянов</small>
+      </blockquote>
+    </div>
+    <div class="span6">
+      <blockquote>
+        <p>Будем рады видеть у себя на кафедре этих ребят для проведения новых курсов в области RubyOnRails</p>
+        <small>Леонид Михайлович Шарнин</small>
+      </blockquote>
+    </div>
+    <div class="span6">
+      <blockquote>
+        <p>Пока была в командировке, прямо у нас в кабинете FlatSoft подряд 3 субботы проводил iOS-воркшопы для наших сотрудников. Ребята прокачались, офис не пострадал!</p>
+        <small>Галина Мусина</small>
+      </blockquote>
+    </div>
+  </div>
+  <hr>
+</div>

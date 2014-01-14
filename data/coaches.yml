@@ -1,0 +1,59 @@
+oleg:
+  image: oleg.png
+  name: Олег Курносов
+  description: Тренер из FlatSoft
+
+elmira:
+  image: elmira.png
+  name: Эльмира Марданшина
+  description: Тренер из Flatstack
+
+dmitry:
+  image: dmitry.png
+  name: Дмитрий Трагер
+  description: Тренер из Flatstack
+
+denis:
+  image: nophoto.png
+  name: Денис Миннетдинов
+  description: Тренер из Flatstack
+
+dilyara:
+  image: dilyara.png
+  name: Диляра Серазутдинова
+  description: Тренер из Flatstack
+
+evgeniy:
+  image: evgeniy.png
+  name: Евгений Петров
+  description: Тренер из Flatstack
+
+danis:
+  image: danis.png
+  name: Данис Тазетдинов
+  description: Тренер из ICL Fujitsu
+
+slava:
+  image: slava.png
+  name: Вячеслав Артемьев
+  description: Тренер из Flatstack
+
+arthur:
+  image: arthur.png
+  name: Артур Пушкин
+  description: Тренер из Flatstack
+
+leonid:
+  image: leonid.png
+  name: Леонид Динерштейн
+  description: Тренер из Flatstack
+
+yar:
+  image: yar.png
+  name: Ярослав Дмитриев
+  description: Тренер из Snow-Forecast.com
+
+vladimir:
+  image: vladimir.png
+  name: Владимир Михайлов
+  description: Тренер из Flatstack
