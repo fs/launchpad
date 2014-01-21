@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'middleman', '~>3.0.0'
+gem 'middleman'
 gem 'middleman-deploy'
-gem 'middleman-sync', '~>3.0.6'
+gem 'middleman-sync'
 gem 'middleman-smusher'
+
 gem 'rb-inotify'
