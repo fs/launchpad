@@ -131,4 +131,3 @@ DEPENDENCIES
   middleman-deploy
   middleman-smusher
   middleman-sync
-  rb-inotify

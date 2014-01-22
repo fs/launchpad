@@ -4,5 +4,3 @@ gem 'middleman'
 gem 'middleman-deploy'
 gem 'middleman-sync'
 gem 'middleman-smusher'
-
-gem 'rb-inotify'
