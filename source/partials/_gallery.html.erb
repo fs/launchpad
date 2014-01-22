@@ -1,26 +1,7 @@
-<div class="row" id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery">
-  <h1>Фотографии с курсов</h1>
-
-  <% (1..6).each do |index| %>
-
-  <div class="span4">
-    <% link_to(asset_path(:images, "training#{index}.jpg"), title: 'Фотографии с курсов', class: 'thumbnail', rel: 'gallery') do %>
-      <%= image_tag("training#{index}.png") %>
-    <% end %>
-  </div>
-
-  <% end %>
-</div>
-
-<div id="modal-gallery" class="modal modal-gallery hide fade">
-  <div class="modal-header">
-      <a class="close" data-dismiss="modal">&times;</a>
-      <h3 class="modal-title"></h3>
-  </div>
-  <div class="modal-body"><div class="modal-image"></div></div>
-  <div class="modal-footer">
-      <a class="btn btn-primary modal-next">Следующее фото <i class="icon-arrow-right icon-white"></i></a>
-      <a class="btn btn-primary modal-prev"><i class="icon-arrow-left icon-white"></i> Предыдущее фото</a>
-      <a class="btn btn-success modal-play modal-slideshow" data-slideshow="5000"><i class="icon-play icon-white"></i> Слайдшоу</a>
+<div class="row" id="map">
+  <div class="span12">
+    <h1>Как к нам добраться</h1>
+    <br>
+      <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=2SWifmjhcBl9VqT2hTtcBEF_SbEr7Vbi&width=600&height=450"></script>
   </div>
 </div>
