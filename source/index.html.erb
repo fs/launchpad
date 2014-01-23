@@ -5,14 +5,30 @@ title: Готовим програмеров для компаний-партн�
   <div class="hero-unit main-video">
     <div class="row">
       <div class="span5">
-        <%= image_tag('logo.png', class: 'logo') %>
+        <%= image_tag('logo2.png', class: 'logo') %>
         <h2>Офис, который растет <br>вместе с Вами</h2>
         <p>Предлагаем Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, rem, nostrum, nisi labore sint iusto atque delectus voluptates qui culpa facere iste assumenda in possimus fugiat temporibus dicta nam quia!</p>
-        <a class="btn btn-primary btn-large" data-toggle="modal" href="#wufoo-form" title="Записаться на курсы RubyOnRails">Записаться на курсы RubyOnRails</a>
+        <a class="btn btn-primary btn-large" data-toggle="modal" href="#wufoo-form" title="Присоединяйтесь!">Присоединяйтесь!</a>
       </div>
       <div class="span7">
-        <iframe width="500" height="311" src="http://www.youtube.com/embed/iQXOoHQr1AY?feature=player_detailpage&amp;rel=0&amp;wmode=Opaque" frameborder="0" allowfullscreen></iframe>
-        <strong>This is how we do it @Flatstack</strong>
+        <div id="myCarousel" class="carousel slide">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="active item"><%= image_tag('1.jpg') %></div>
+            <div class="item"><%= image_tag('2.jpg') %></div>
+            <div class="item"><%= image_tag('3.jpg') %></div>
+            <div class="item"><%= image_tag('4.jpg') %></div>
+          </div>
+          <!-- Carousel nav -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
       </div>
     </div>
 
@@ -36,7 +52,6 @@ title: Готовим програмеров для компаний-партн�
           <li>Рабочий стол и стул (IKEA)</li>
           <li><b>Цена 2800р</b></li>
         </ul>
-        <a data-toggle="modal" href="#wufoo-form" class="btn btn-large">Записаться</a>
       </div>
     </div>
   </div>
@@ -46,13 +61,15 @@ title: Готовим програмеров для компаний-партн�
 
   <br>
   <div class="row">
-    <div class="span11 well">
-      <a data-toggle="modal" href="#wufoo-form" class="btn btn-large btn-primary pull-right">Пригласите меня!</a>
+    <div class="span12 well">
+      <a data-toggle="modal" href="#wufoo-form" class="btn btn-large btn-primary pull-right">Присоединяйтесь!</a>
       <p><em>Приходите к нам и мы обязательно поможем вам повысить свою квалификацию, или начать карьеру в IT</em></p>
     </div>
   </div>
   <div class="row" id="reviews">
-    <h1>Отзывы</h1>
+    <div class="span12">
+      <h1>Отзывы</h1>
+    </div>
     <div class="span6">
       <blockquote>
         <p>Поддерживаем начинания этих ребят на уровне кафедры КС (КГТУ им. Туполева), надеемся скоро включить курсы RubyOnRails в образовательную программу некоторых специальностей</p>
@@ -77,6 +94,12 @@ title: Готовим програмеров для компаний-партн�
         <small>Галина Мусина</small>
       </blockquote>
     </div>
+  </div>
+  <hr>
+  <div class="row logos">
+    <div class="span4"><a href="http://www.lp.co/nola"><%= image_tag('lpnola.png',  width: "50%", alt: 'LaunchPad Nola') %></a></div>
+    <div class="span4"><a href="http://bi.itpark-kazan.ru/"><%= image_tag('it.png', alt: 'Бизнес-инкубатор') %></a></div>
+    <div class="span4"><a href="http://flatstack.com"><%= image_tag('flatstack.png', alt: 'FlatStack') %></a></div>
   </div>
   <hr>
 </div>
