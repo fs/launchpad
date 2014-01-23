@@ -1,0 +1,99 @@
+---
+title: LaunchPad - Офис, который растет вместе с Вами!
+---
+div.container
+  div.hero-unit.main-video
+    div.row
+      div.span5
+        = image_tag('logo2.png', class: 'logo')
+        h2
+          | Офис, который растет
+          br
+          | вместе с Вами
+        p
+          | Отправьте заявку и вам перезвонят, пригласят на экскурсию
+        a.btn.btn-primary.btn-large data-toggle="modal" href="#wufoo-form" title="Присоединяйтесь!"
+          | Присоединяйтесь!
+      div.span7
+        div#myCarousel.carousel.slide
+          ol.carousel-indicators
+            li data-target="#myCarousel" data-slide-to="0" class="active"
+            li data-target="#myCarousel" data-slide-to="1"
+            li data-target="#myCarousel" data-slide-to="2"
+            li data-target="#myCarousel" data-slide-to="3"
+
+          <!-- Carousel items -->
+          div.carousel-inner
+            div.active.item = image_tag('1.jpg')
+            div.item = image_tag('2.jpg')
+            div.item = image_tag('3.jpg')
+            div.item = image_tag('4.jpg')
+
+          <!-- Carousel nav -->
+          a.carousel-control.left href="#myCarousel" data-slide="prev"
+            | &lsaquo;
+          a.carousel-control.right href="#myCarousel" data-slide="next"
+            | &rsaquo;
+
+
+    = partial 'partials/wufoo'
+
+
+  div.courses
+    div.row#probation
+      div.span12
+        h1 Успевайте больше и любите место своей работы.
+        p
+          b LaunchPad
+          | – это коворкинг в самом сердце Казани, где встречаются профессионалы IT отрасли, общаются и самое главное – сосердотачиваются на работы. “Talking < Doing” одна из ключевых ценностей нашего якорного резидента и партнера FlatStack, который уже занял большую часть коворкинга! Присоединяйтесь!
+        p
+          strong Присоединяйтесь к нам, и вы получите:
+        ul
+          li Возможность посещения образовательных мероприятий при поддержке FlatStack, КАИ, КФУ
+          li Доступ к профессиональным переговорным зонам по записи
+          li Принтер-ксерокс
+          li Прямой конференц-телефон в US
+          li Веселые мероприятия в неспящей части города
+          li Интересных соседей по коворкингу, прошедших такой же отбор
+          li Возможность парковать свой велосипед или дойти за 120 секунд от остановки “Ленинсикй Садик” до своего нового рабочего места
+          li Рабочий стол и стул (IKEA)
+        ul.pager
+          li.previous
+            a
+              b Цена 2800р.
+  br
+  = partial 'partials/map'
+  br
+  div.row
+    div.span12.well
+      a data-toggle="modal" href="#wufoo-form" class="btn btn-large btn-primary pull-right"
+        | Присоединяйтесь!
+      p
+        em Отправьте заявку и вам перезвонят, пригласят на экскурсию
+  div.row#reviews
+    div.span12
+      h1 Отзывы
+    div.span6
+      blockquote
+        p
+          | Поддерживаем начинания этих ребят на уровне кафедры КС (КГТУ им. Туполева), надеемся скоро включить курсы RubyOnRails в образовательную программу некоторых специальностей
+        small Валерий Андреевич Песошин
+    div.span6
+      blockquote
+        p
+          | Отрадно, что вы занимаетесь обучением ИТ-специалистов, многим гостям ЦИТ в КФУ приходится еще объяснять, зачем повышать квалификацию и создавать новые проекты в сфере образования
+        small Айрат Хасьянов
+
+  hr
+  div.row.logos
+    div.span4
+      a href="http://www.lp.co/nola"
+        = image_tag('lpnola.png',  width: "50%", alt: 'LaunchPad Nola')
+    div.span4
+      a href="http://bi.itpark-kazan.ru/"
+        = image_tag('it.png', alt: 'Бизнес-инкубатор')
+    div.span4
+      a href="http://flatstack.com"
+        = image_tag('flatstack.png', alt: 'FlatStack')
+  hr
+
