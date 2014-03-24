@@ -5,7 +5,7 @@
 ```bash
   git clone git@github.com:fs/launchpad.git sitename
   cd sitename
-  bin/bootstrap
+  script/bootstrap
 ```
 ## Development process
 
