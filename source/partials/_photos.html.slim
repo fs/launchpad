@@ -1,0 +1,25 @@
+div.row#gallery data-toggle="modal-gallery" data-target="#modal-gallery"
+  h1 Фотографии с курсов
+
+  - 6.times do |index|
+    div.span4
+      = link_to(asset_path(:images, "training#{index}.jpg"), title: 'Фотографии с курсов', class: 'thumbnail', rel: 'gallery') do
+        = image_tag("training#{index}.png")
+
+div#modal-gallery.modal.modal-gallery.hide.fade
+  div.modal-header
+    a class="close" data-dismiss="modal"
+      h3.modal-title"
+  div.modal-body
+    div.modal-image
+  div.modal-footer
+    a.btn.btn-primary.modal-next
+      | Следующее фото
+      i.icon-arrow-right.icon-white
+    a.btn.btn-primary.modal-prev
+      i.icon-arrow-left.icon-white
+        | Предыдущее фото
+    a.btn.btn-success.modal-play.modal-slideshow data-slideshow="5000"
+      i.icon-play.icon-white
+      | Слайдшоу
+

@@ -1,0 +1,18 @@
+div#wufoo-form.modal.hide.fade
+  div.modal-body
+    a.close data-dismiss="modal"
+      | ×
+  javascript:
+    var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));
+  javascript:
+    var z7x4a3 = new WufooForm();
+    z7x4a3.initialize({
+      'userName':'flatschool',
+      'formHash':'z7x4a3',
+      'autoResize':true,
+      'height':'395',
+      'width':'620',
+      'ssl':true
+      });
+    z7x4a3.display();
+
